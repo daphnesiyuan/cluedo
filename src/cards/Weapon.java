@@ -9,7 +9,7 @@ public class Weapon implements Card {
 
 	/**
 	 * Represents the type of the weapon it is
-	 *
+	 * @author: Daphne Wang
 	 */
 
 	private WeaponType weapon;

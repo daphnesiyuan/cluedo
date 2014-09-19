@@ -1,5 +1,9 @@
 package pieces;
 
+/**
+ * @author Antonia Caskey & Daphne Wang
+ */
+
 import java.awt.Color;
 import java.awt.Graphics;
 

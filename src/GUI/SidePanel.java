@@ -21,7 +21,9 @@ import javax.swing.JTextField;
 
 import players.Player;
 
-
+/**
+ * @author Antonia Caskey & Daphne Wang
+ */
 public class SidePanel extends JPanel {
 
 	private BoardFrame boardFrame;
@@ -30,10 +32,6 @@ public class SidePanel extends JPanel {
 	private handler h;
 	private ArrayList<ImageIcon> images;
 
-/*	SidePanel s = new SidePanel(null, null);
-	s = (SidePanel)(getBoardFrame().sidePanel);
-	s.refreshDectectiveNotes();
-*/
 
 	private JLabel diceLabel;	//	dice 1
 	private JLabel diceLabel1;	//	dice 2

@@ -27,7 +27,7 @@ import cards.Weapon;
 
 /**
  * The Board class represents a game of Cluedo.
- *
+ * @author Antonia Caskey & Daphne Wang
  */
 public class Board {
 

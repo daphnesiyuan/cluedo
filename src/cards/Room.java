@@ -8,7 +8,7 @@ import cards.Person.PersonName;
 public class Room implements Card {
 	/**
 	 * Represents s card of a room
-	 *
+	 * @author: Daphne Wang
 	 */
 
 	private RoomName room;

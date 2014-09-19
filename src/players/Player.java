@@ -1,5 +1,8 @@
 package players;
 
+/**
+ * @author Antonia Caskey & Daphne Wang
+ */
 
 import java.util.ArrayList;
 
@@ -15,17 +18,14 @@ import pieces.ReverendGreen;
 import cards.Card;
 
 public class Player{
-	//could take care of mouse listener
 
 	protected ArrayList<Card> hand = new ArrayList<Card>();
 	Piece piece;
 	String name;
 	private Boolean active = true;
-	//CHANGED#################
 	private String box1 = "Colonel Mustard\n Miss Scarlett\n Mrs Peacock\n Mrs White\n Professor Plum\n Reverend Green";
 	private String box2 = "Candle Stick\n Dagger\n Lead Pipe\n Revolver\n Rope\n Spanner";
 	private String box3 = "Kitchen\n Ballroom\n Conservatory\n Billard Room\n Library\n Study\n Hall\n Lounge\n Dining Room";
-	//########################
 	/** Constructor 2: no hand is dealt yet - but still initialises the player
 	 * @param n: name of the player - string
 	 * @param p: the piece of the  board they pick to represent the player
@@ -101,7 +101,6 @@ public class Player{
 
 
 	public ImageIcon getIcon(){
-        //return new ImageIcon(Player.class.getResource("avatars/msAvatar.jpg"));
 
         if(piece instanceof ColonelMustard){
                 return new ImageIcon(Player.class.getResource("avatars/cmAvatar.jpg"));

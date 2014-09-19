@@ -1,5 +1,9 @@
 package GUI;
 
+/**
+ * @author Daphne Wang
+ */
+
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -42,23 +46,6 @@ public class Decision extends JFrame {
 		board = bd;
 
 
-		//this.setSize(400, 200);
-
-		//panel = new JPanel();
-		//panel.setLayout(new FlowLayout()); // change later
-
-		//this.add(panel);
-		//this.setAlwaysOnTop(true); // ensures it pops up in front
-		//this.setVisible(true);
-		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-		//setPersonButtons();
-		//setRoomButtons();
-		//setWeaponButtons();
-		//submit = new JButton("submit");
-		//submit.addActionListener(handler);
-		//panel.add(submit);
-		//CHANGE ############################################################
 		Square s = board.getCurrentPlayer().getPiece().getCurrentSquare(board);
 		if(isAccuse){
 			roomGroup();
@@ -73,15 +60,13 @@ public class Decision extends JFrame {
 			room = r.getNameOfRoom();
 		}
 
-		//NEED TO CALL ANTONIAS METHOD
-		//accuse(String p, String r, String w)
+
 		if(isAccuse){
 			board.accuse(person,room,weapon);
 		}
 		else if(s instanceof RoomSquare){
 			board.suggestion(person,room,weapon);
 		}
-		//CHANGE ############################################################ CHANGED AGAIN
 	}
 
 
@@ -90,12 +75,6 @@ public class Decision extends JFrame {
 	public void personGroup(){
 		String[] people = { "Colonel Mustard", "Miss Scarlett", "Mrs Peacock", "Mrs White", "Professor Plum", "Reverend Green" };
 
-		//Indices start at 0, so 4 specifies the pig.
-		//peopleList = new JComboBox(people);
-		//peopleList.setSelectedIndex(4);
-		//peopleList.addActionListener(handler);
-
-		//panel.add(peopleList);
 
 
 		person = (String) JOptionPane .showInputDialog( null,

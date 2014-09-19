@@ -1,6 +1,11 @@
 package GUI;
 
 import java.awt.BorderLayout;
+
+/**
+ * @author Daphne Wang
+ */
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;

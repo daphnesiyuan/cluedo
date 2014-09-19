@@ -1,5 +1,8 @@
 package GUI;
 
+/**
+ * @author Antonia Caskey & Daphne Wang
+ */
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

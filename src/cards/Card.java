@@ -8,7 +8,7 @@ public interface Card {
 /**
  * An interface for the object of type Card
  * a card is either a person, weapon or room
- * @return
+ * @author Daphne Wang
  */
 	public ImageIcon cardIcon();
 	public String toString();

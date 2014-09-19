@@ -10,7 +10,10 @@ import static org.junit.Assert.*;
 public class tests {
 
 
-
+	/**
+	 * Testing class.
+	 * @author Daphne Wang
+	 */
 
 	@Test
 	public void testGetPiece() {

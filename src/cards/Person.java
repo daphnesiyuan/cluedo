@@ -1,5 +1,11 @@
 package cards;
 
+/**
+ * Person class
+ * @author Daphne Wang
+ */
+
+
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 

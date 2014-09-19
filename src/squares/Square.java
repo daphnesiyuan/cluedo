@@ -2,7 +2,9 @@ package squares;
 import java.awt.Color;
 import java.awt.Graphics;
 
-
+/**
+ * @author Antonia Caskey
+ */
 public abstract class Square {
 
 
